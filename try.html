@@ -1,0 +1,67 @@
+<html dir="rtl">
+
+<head>
+    <link rel="stylesheet" href="try.css">
+    <script type="text/javascript" src="try.js" defer></script>
+    <title>ניסיון</title>
+</head>
+
+<body>
+    <div class="background">
+
+        <div class="pageContainer">
+
+            <div class="topBar">
+                <div class="titleContainer">
+                    <div class="icons"><img src="image.png" alt="Second Icon"></div>
+                    <div class="icons"><img src="image1.png" alt="First Icon"></div>
+                    <h1>בחזרה לעתיד</h1>
+                </div>
+                <div>
+                    <input onclick="changeState()" type="button" value="כבוי" id="stateButton" class="topButtons">
+                    <button id="timeButton" class="topButtons"></button>
+                </div>
+                <div class="userLogin">
+                    <div id="loginMessage">שלום פלוני אלמוני</div>
+                    <div id="lastEnter">הכניסה האחרונה שלך 11:00</div>
+                </div>
+            </div>
+
+
+            <div class="mainContactContainer">
+                <div class="buttonContainer">
+                    <button id="firstButton" class="sideButton">
+                        חייזרים
+                    </button>
+                    <button class="sideButton" onclick="initYoungTable()">
+                        צעירים
+                    </button>
+                    <button class="sideButton">
+                        ניהול
+                    </button>
+                    <button class="sideButton">
+                        מלחמה
+                    </button>
+                    <button class="sideButton">
+                        מרחב גלקטי
+                    </button>
+                </div>
+                <div class="menu">
+                    <div class="allItems">
+                        <input onclick="addToTable()" type="button" value="כבוי" id="addButton">
+                        <p class="itemsTitle"> כל הפריטים:</p>
+                        <table id="allDetailsTable"></table>
+                    </div>
+                    <div class="specificItems">
+                        <p class="itemsTitle">פריטים ספציפיים:</p>
+                        <table id="specificDetailsTable"></table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

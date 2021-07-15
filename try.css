@@ -1,0 +1,230 @@
+.background{
+    background-color: rgb(165, 219, 250);
+    position: fixed;
+    top: 0vw;
+    left: 0vh;
+    bottom: 0vh;
+    right:0vw;
+    display: flex;
+}
+
+.pageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+.topBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top:1vh;
+    left: 1vw;
+    margin-left:5vw;
+    width:90vw;
+    height: 9vh;
+    background-color: rgb(187, 207, 216);
+    position:fixed;
+    border-radius:1vh;
+    border-style: solid;
+    border-color:rgb(43, 69, 156);
+    font:0.8vw sans-serif;
+    overflow: hidden;
+}
+
+.titleContainer{
+    display:flex;
+    align-items: center;
+    margin-right: 1.5vw;
+}
+
+img{
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.icons{
+    display:flex;
+    width:4.2vw ;
+    height: 6.6vh;
+}
+
+.titleContainer h1{
+    font-size:4vw;
+    color: rgb(22, 52, 153);
+    text-shadow:0 0 0.3vw rgb(0, 183, 255), 0 0 0.2vw rgb(0, 183, 255),0.17vw 0.17vw 0.17vw #000000;
+    -webkit-text-stroke: 0.05vw rgb(240, 240, 240);
+}
+.topButtons{
+    height: 5.5vh;
+    width: 12vw;
+    font-size: 2.5vw;
+}
+
+#stateButton{
+    border-color: black;
+    border-style: solid;
+    background: rgb(160, 160, 160);
+}
+
+#timeButton{
+    background: rgb(167, 214, 185);
+    border-width:0.03vw;
+}
+
+.userLogin{
+  margin-left: 1vw;
+}
+
+#loginMessage{
+    font-size: 1.55vw;
+}
+
+#lastEnter{
+    font-size: 0.95vw;
+}
+
+.mainContactContainer{
+    display:flex;
+    margin-right: 3.6vw;
+    margin-bottom: 1.6vh;
+    
+}
+
+.buttonContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-color:rgb(16, 52, 170);
+    border-radius:4vh;
+    height: 85vh;
+    width: 14vw;
+    background-color: rgb(127, 176, 199);
+}
+
+#firstButton{
+    margin-top: 18vh;
+}
+
+.sideButton {
+    margin-bottom:2vh;
+    width: 7vw;
+    flex-basis: 5vh;
+    border-color:rgb(44, 145, 192);
+    border-width:0.05vw;
+    border-radius:0.9vh;
+    color: white;
+    font-size:1vw;
+    background: linear-gradient(to bottom, rgb(202, 202, 202),rgb(96, 152, 185));
+    box-shadow: inset 0vh 0vh 3vh 0vh rgb(27, 60, 78);
+    padding: 0.2vh 0.1vw 0.2vh 0.1vw;
+}
+
+.sideButton:hover{
+    background:deepskyblue;
+    cursor: pointer;
+}
+.sideButton:focus {
+    box-shadow: 0 5px #666;
+    transform: translateY(3px);
+    font-weight: bold;
+}
+
+
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:rgb(204, 216, 221);
+    border-radius: 8.6vh;
+    border-color:rgb(16, 52, 170);
+    border-style: solid;
+    height:85vh;
+    width: 75vw;
+    margin-right: 1vw;
+    overflow: hidden;
+}
+
+.menu div{
+    border-style: solid;
+    border-color:rgb(16, 52, 170);
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70vw;
+    margin-right: 2.2vw;
+}
+
+.allItems{
+     flex-basis:61.5vh;
+     background-color: rgb(218, 218, 218);
+}
+
+.specificItems {
+    flex-basis: 15.5vh;
+    background-color: rgb(218, 218, 218);
+}
+
+.itemsTitle{
+    font-size:1.13vw;
+    text-align: center;
+}
+
+
+th, td, p, input {
+    font:1.1vw sans-serif;
+}
+
+table, th, td 
+{
+    border: solid 0.1vh rgb(193, 198, 201);
+    border-collapse: collapse;
+    padding:0.2vh 0.15vw;
+    text-align: center;
+}
+
+th{
+    font-weight:bold;
+}
+
+#addButton{
+    margin-top: 1vh;
+    margin-right: 65vw;
+    background: rgb(24, 136, 127);
+    width: 4vw;
+    height: 3vh;
+}
+#allDetailsTable{
+    width: 63vw;
+    height: 25vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:rgb(160, 160, 160);
+    color:black;
+
+}
+#allDetailsTable tr:hover{
+    background:rgb(147, 172, 184);
+}
+
+#titleRow{
+    background-color:black;
+    color:white;
+}
+
+#specificDetailsTable{
+    border:thin rgb(204, 216, 221) ;
+}
+
+#specificDetailsTable td{
+ width: 25vw;
+ font-weight: bold;
+ border:thin rgb(204, 216, 221) ;
+}
+    
+#highlightRow{
+    background:rgb(147, 172, 184);
+}
+
+
+
